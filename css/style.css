@@ -1,0 +1,158 @@
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+/* CSS RESET */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* toggle */
+.navbar-toggler{
+    color: #800000 !important;
+}
+/* CAROUSEL */
+.carousel-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+    width: 100%;
+}
+
+.carousel-container .carousel-inner{
+    width: 100%;
+    height: 550px;
+}
+
+.carousel-container .opacity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+    width: 100%;
+    background-color: maroon;
+    position: absolute;
+    opacity: 0.5;
+}
+
+.content-container{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    position: absolute;
+    color: whitesmoke;
+    padding: 10px;
+    width: 600px;
+}
+
+.content-container .content{
+    padding: 10px;
+}
+
+.content-container .start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+    
+}
+.content-container .start button{
+    padding: 10px 35px;
+    border: none;
+    border-radius: 5px;
+    color: maroon;
+    font-family: 'Rubik Distressed', cursive;
+    font-size: 20px;
+}
+
+.content-container .content h1{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 65px;
+    text-align: center;
+}
+
+/* CARDS SECTION */
+.cards-head{
+    margin-top: 50px;
+    text-align: center;
+    color: maroon;
+    font-family: 'Rubik Distressed', cursive;
+}
+
+.cards-head h3{
+    color: gray;
+    font-family: 'Dancing Script', cursive;
+}
+
+.cards-head p{
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cards-container .cards-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-content .card{
+    margin: 50px 10px 10px 10px;
+}
+/* .cards-content .card button{
+    display: none;
+}
+
+.cards-content .card:hover{
+    display: flex;
+} */
+/* hover effect */
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text a{
+    background-color: transparent;
+    color: maroon;
+    font-size: 30px;
+    padding: 16px 32px;
+  }
+  .text a:hover{
+    color: maroon;
+  }
+
+
+
+
+
